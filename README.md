@@ -2,6 +2,10 @@
 
 An Android networking companion that reads **visible badges**, matches text to an authorized event directory, and remembers manually confirmed encounters. Local-first, no backend, no paid API, no face identification.
 
+Public source: https://github.com/drafteruper/network-lens-android . Version 0.1.0 debug has been built and installed on an Android 15 emulator: **20 unit tests and 5 device tests passed**, lint has no errors. See [the validation report](docs/VALIDATION.md) for limits. No physical Galaxy Z Flip 6 test has been performed.
+
+<img src="docs/screenshots/home.png" alt="Actual Network Lens start screen on an emulator" width="260" /> <img src="docs/screenshots/scanner.png" alt="Actual scanner displaying the emulator camera test pattern" width="260" />
+
 ## What this MVP does
 
 - Saves events with a name and optional HTTPS reference URL.
